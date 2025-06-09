@@ -21,7 +21,7 @@ public class DemoController {
 	@GetMapping("/test2")
 	public Test check() {
 	Test test = new Test();
-	test.setName("木村");
+	test.setName("木村A");
 	test.setScore(100);
 	return test;
 	}
